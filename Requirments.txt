@@ -1,0 +1,14 @@
+Would you like to see data for Chicago, New York, or Washington?
+Would you like to filter the data by month, day, or not at all?
+(If they chose month) Which month - January, February, March, April, May, or June?
+(If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
+
+
+-- requirments
+your code should handle unexpected input well without failing. 
+You need to anticipate raw input errors like using improper upper or lower case, typos,
+or users misunderstanding what you are expecting.
+Use the tips provided in the sections of the Scripting lesson in this course to make sure your code does not fail with an execution error due to unexpected raw input.
+Your script also needs to prompt the user whether they would like want to see the raw data.
+print 5 rows of the data at a time.
+The script should continue prompting and printing the next 5 rows at a time until the user chooses 'no,'.
